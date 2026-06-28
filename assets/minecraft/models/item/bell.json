@@ -1,6 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
+		"particle": "block/bell_bottom",
 		"bar": "block/dark_oak_planks",
 		"side": "block/bell_side",
 		"top": "block/bell_top"
