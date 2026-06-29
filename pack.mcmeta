@@ -4,6 +4,6 @@
     "supported_formats": { "min_inclusive": 16, "max_inclusive": 88 },
     "min_format": 16,
     "max_format": 88,
-    "description": "§63D Models §2v2.88.0 §rApache-2.0\n§9modrinth ulticraft-models-3d\n§rby MeeniMc with assets from GrandMagus"
+    "description": "§63D Models §2v3.88.0 §rCC-BY-NC-SA\n§9modrinth ulticraft-models-3d\n§rby MeeniMc with assets from GrandMagus"
   }
 }
