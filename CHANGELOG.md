@@ -1,3 +1,28 @@
+v2.97.0 for Minecraft 26.3
+==========================
+
+This release targets 26.3 and is expected to work as intended on prior Minecraft versions.
+
+Added
+-----
+* 3D crafter model.
+* 3D trial spawner model.
+
+Removed
+-------
+* Command block models (out of scope).
+
+Fixed
+-----
+* Small visual artifacts in the barrel and smithing table models.
+* Hay bale side texture and 3D rope alignment now match the 26.3 straw bed.
+
+Changed
+-------
+* Simplified the spawner model geometry.
+* Updated pack metadata for Minecraft 26.3 compatibility.
+* Relicensed the pack under CC-BY-NC-SA 4.0 (from Apache-2.0).
+
 v2.88.0 for Minecraft 26.2
 ==========================
 
