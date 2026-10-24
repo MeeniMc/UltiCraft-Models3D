@@ -1,0 +1,112 @@
+# When a draft release is published (manual review), publish the same zip to
+# Modrinth. The draft release is created by release.yml from the tag. GitHub can
+# suppress the release event when the draft was authored by github-actions[bot],
+# so there is also a manual fallback: Actions -> Publish Modrinth -> Run workflow
+# and enter the tag. The release body is the Modrinth changelog, so edit it first.
+#
+# Requires a repository secret MODRINTH_TOKEN with "Create versions" and
+# "Write versions" on the project (the action unfeatures older versions after
+# creating the new one). The workflow must exist on the default branch before
+# GitHub will run it for a release event.
+name: Publish Modrinth
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Release tag to publish (for example v3.88.0)
+        required: true
+
+jobs:
+  publish:
+    # Environment secret + reviewer gate: create the `modrinth` environment
+    # with MODRINTH_TOKEN and allow the default branch plus `v*` tags. The
+    # manual fallback runs from the default branch, so a tag-only rule blocks it.
+    environment: modrinth
+    runs-on: ubuntu-slim
+    permissions:
+      contents: read
+    steps:
+      # Fail loudly instead of letting mc-publish warn and exit 0 when the
+      # secret is missing.
+      - name: Check Modrinth token
+        env:
+          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+        run: |
+          set -euo pipefail
+          [ -n "$MODRINTH_TOKEN" ] || { echo "::error::MODRINTH_TOKEN secret is not set"; exit 1; }
+
+      # Resolve the release by tag so the release event and the manual fallback
+      # share one path. GITHUB_TOKEN is read-only here (contents: read).
+      - name: Fetch release and zip
+        id: release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ github.event_name == 'workflow_dispatch' && inputs.tag || github.event.release.tag_name }}
+        run: |
+          set -euo pipefail
+          TAG=$(printf '%s' "$TAG" | tr -d '[:space:]')
+          [ -n "$TAG" ] || { echo "::error::release tag is empty"; exit 1; }
+          mkdir -p dist
+          api="https://api.github.com/repos/$GITHUB_REPOSITORY/releases/tags"
+          fetch_release() {
+            curl -sS -w '\n%{http_code}' \
+              -H "Authorization: Bearer $GH_TOKEN" \
+              -H "Accept: application/vnd.github+json" \
+              "$api/$1"
+          }
+          response=$(fetch_release "$TAG")
+          code=${response##*$'\n'}
+          body=${response%$'\n'*}
+          # Accept both 3.88.0 and v3.88.0; release tags carry the v prefix.
+          if [ "$code" = "404" ] && [ "${TAG#v}" = "$TAG" ]; then
+            TAG="v$TAG"
+            response=$(fetch_release "$TAG")
+            code=${response##*$'\n'}
+            body=${response%$'\n'*}
+          fi
+          if [ "$code" != "200" ]; then
+            echo "::error::could not fetch release '$TAG' (HTTP $code)"
+            printf '%s\n' "$body"
+            exit 1
+          fi
+          release="$body"
+          if [ "$(jq -r '.draft' <<<"$release")" != "false" ]; then
+            echo "::error::release $TAG is still a draft; publish it first"
+            exit 1
+          fi
+          count=$(jq '[.assets[] | select(.name | endswith(".zip"))] | length' <<<"$release")
+          if [ "$count" -ne 1 ]; then
+            echo "::error::expected exactly one .zip release asset, found $count"
+            exit 1
+          fi
+          asset=$(jq -r '.assets[] | select(.name | endswith(".zip")) | .name' <<<"$release")
+          url=$(jq -r '.assets[] | select(.name | endswith(".zip")) | .browser_download_url' <<<"$release")
+          if ! curl --fail-with-body --silent --show-error --location "$url" --output "dist/$asset"; then
+            echo "::error::failed to download asset '$asset' from the release"
+            exit 1
+          fi
+          jq -r '.body // ""' <<<"$release" > changelog.md
+          name=$(jq -r '.name // empty' <<<"$release")
+          [ -n "$name" ] || name="$TAG"
+          if [ "$(jq -r '.prerelease' <<<"$release")" = "true" ]; then type=beta; else type=release; fi
+          printf 'name=%s\nversion=%s\nversion_type=%s\n' "$name" "${TAG#v}" "$type" >> "$GITHUB_OUTPUT"
+
+      - name: Publish to Modrinth
+        uses: Kira-NT/mc-publish@52307b03863581dec6b652b83e597aec02ebb075 # v3.3.1
+        with:
+          modrinth-id: ejmzg9VI
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          files: dist/*.zip
+          loaders: minecraft
+          name: ${{ steps.release.outputs.name }}
+          version: ${{ steps.release.outputs.version }}
+          changelog-file: changelog.md
+          # Bump the upper bound when a new Minecraft line is supported; the
+          # `releases` filter drops snapshots and pre-releases from the range.
+          game-versions: |
+            >=1.18 <26.3
+          game-version-filter: releases
+          version-type: ${{ steps.release.outputs.version_type }}
