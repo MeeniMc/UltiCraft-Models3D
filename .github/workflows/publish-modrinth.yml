@@ -16,7 +16,7 @@ on:
   workflow_dispatch:
     inputs:
       tag:
-        description: Release tag to publish (for example v3.88.0)
+        description: Release tag to publish (for example v2.97.0)
         required: true
 
 jobs:
@@ -60,7 +60,7 @@ jobs:
           response=$(fetch_release "$TAG")
           code=${response##*$'\n'}
           body=${response%$'\n'*}
-          # Accept both 3.88.0 and v3.88.0; release tags carry the v prefix.
+          # Accept both 2.97.0 and v2.97.0; release tags carry the v prefix.
           if [ "$code" = "404" ] && [ "${TAG#v}" = "$TAG" ]; then
             TAG="v$TAG"
             response=$(fetch_release "$TAG")
@@ -107,6 +107,6 @@ jobs:
           # Bump the upper bound when a new Minecraft line is supported; the
           # `releases` filter drops snapshots and pre-releases from the range.
           game-versions: |
-            >=1.18 <26.3
+            >=1.18 <26.4
           game-version-filter: releases
           version-type: ${{ steps.release.outputs.version_type }}
