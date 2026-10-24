@@ -1,3 +1,28 @@
+v2.88.0 for Minecraft 26.2
+==========================
+
+This release targets 26.2 and is expected to work as intended on prior Minecraft versions.
+
+Added
+-----
+* 3D item models for copper lanterns in all oxidation states, waxed and unwaxed.
+
+Removed
+-------
+* Animated campfire item models (Vanilla Tweaks has an alternative; they conflict with ashless campfires).
+
+Fixed
+-----
+* Bell item missing its particle texture.
+
+Cleanup
+-------
+* Removed duplicate bell block models.
+
+Changed
+-------
+* Updated pack metadata for Minecraft 26.2 compatibility.
+
 v2.44.0 for Minecraft 1.21.4
 ============================
 
