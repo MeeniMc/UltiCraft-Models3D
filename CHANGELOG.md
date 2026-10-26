@@ -1,3 +1,12 @@
+v2.97.1 for Minecraft 26.3
+==========================
+
+This release targets 26.3 and is expected to work as intended on prior Minecraft versions.
+
+Fixed
+-----
+* Sub-pixel gaps in 51 block and item models snapped to exact coordinates; stitching artifacts no longer shimmer.
+
 v2.97.0 for Minecraft 26.3
 ==========================
 
@@ -15,7 +24,6 @@ Removed
 Fixed
 -----
 * Small visual artifacts in the barrel and smithing table models.
-* Sub-pixel gaps in 51 block and item models snapped to exact coordinates; stitching artifacts no longer shimmer.
 * Hay bale side texture and 3D rope alignment now match the 26.3 straw bed.
 
 Changed
