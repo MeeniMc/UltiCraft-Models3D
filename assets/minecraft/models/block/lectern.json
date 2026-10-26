@@ -32,8 +32,8 @@
 			}
 		},
 		{
-			"from": [ 0.01, 12, 3 ],
-			"to": [ 15.99, 16, 16 ],
+			"from": [ 0, 12, 3 ],
+			"to": [ 16, 16, 16 ],
 			"rotation": { "origin": [ 8, 8, 8 ], "axis": "x", "angle": -22.5 },
 			"faces": {
 				"down": { "uv": [ 0, 0, 16, 13 ], "texture": "#bottom" },
@@ -47,7 +47,7 @@
 		{
 			"__comment": "PlaneZ4",
 			"from": [ 5, 9, 4 ],
-			"to": [ 11, 11, 4.001 ],
+			"to": [ 11, 11, 4 ],
 			"faces": {
 				"north": { "uv": [ 1, 5, 7, 7 ], "texture": "#front" }
 			}
@@ -55,7 +55,7 @@
 		{
 			"__comment": "PlaneZ4",
 			"from": [ 4, 2, 4 ],
-			"to": [ 5, 11, 4.001 ],
+			"to": [ 5, 11, 4 ],
 			"faces": {
 				"north": { "uv": [ 7, 5, 8, 14 ], "texture": "#front" }
 			}
@@ -63,7 +63,7 @@
 		{
 			"__comment": "PlaneZ4",
 			"from": [ 5, 7, 5 ],
-			"to": [ 11, 9, 5.001 ],
+			"to": [ 11, 9, 5 ],
 			"faces": {
 				"north": { "uv": [ 1, 7, 7, 9 ], "texture": "#front" }
 			}
@@ -71,7 +71,7 @@
 		{
 			"__comment": "PlaneZ4",
 			"from": [ 5, 2, 4 ],
-			"to": [ 11, 4, 4.001 ],
+			"to": [ 11, 4, 4 ],
 			"faces": {
 				"north": { "uv": [ 1, 12, 7, 14 ], "texture": "#front" }
 			}
@@ -79,7 +79,7 @@
 		{
 			"__comment": "PlaneX8",
 			"from": [ 11, 8, 4 ],
-			"to": [ 11.001, 9, 5 ],
+			"to": [ 11, 9, 5 ],
 			"faces": {
 				"west": { "uv": [ 4, 7, 5, 8 ], "texture": "#front" }
 			}
@@ -87,7 +87,7 @@
 		{
 			"__comment": "PlaneX8",
 			"from": [ 5, 4, 4 ],
-			"to": [ 5.001, 9, 5 ],
+			"to": [ 5, 9, 5 ],
 			"faces": {
 				"east": { "uv": [ 7, 7, 8, 12 ], "texture": "#front" }
 			}
@@ -95,7 +95,7 @@
 		{
 			"__comment": "PlaneY10",
 			"from": [ 5, 4, 4 ],
-			"to": [ 11, 4.001, 5 ],
+			"to": [ 11, 4, 5 ],
 			"faces": {
 				"up": { "uv": [ 7, 12, 1, 13 ], "texture": "#front" }
 			}
@@ -103,7 +103,7 @@
 		{
 			"__comment": "PlaneZ4",
 			"from": [ 11, 2, 4 ],
-			"to": [ 12, 11, 4.001 ],
+			"to": [ 12, 11, 4 ],
 			"faces": {
 				"north": { "uv": [ 0, 5, 1, 14 ], "texture": "#front" }
 			}
@@ -121,7 +121,7 @@
 		{
 			"__comment": "PlaneY10",
 			"from": [ 5, 9, 4 ],
-			"to": [ 11, 9.001, 5 ],
+			"to": [ 11, 9, 5 ],
 			"faces": {
 				"down": { "uv": [ 1, 6, 7, 7 ], "texture": "#front" }
 			}

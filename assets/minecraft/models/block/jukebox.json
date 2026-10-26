@@ -21,7 +21,7 @@
 		{
 			"__comment": "PlaneY2",
 			"from": [ 9, 16, 3 ],
-			"to": [ 16, 16.001, 13 ],
+			"to": [ 16, 16, 13 ],
 			"faces": {
 				"up": { "uv": [ 9, 3, 16, 13 ], "texture": "#top", "cullface": "up" }
 			}
@@ -29,7 +29,7 @@
 		{
 			"__comment": "PlaneY2",
 			"from": [ 0, 16, 0 ],
-			"to": [ 16, 16.001, 3 ],
+			"to": [ 16, 16, 3 ],
 			"faces": {
 				"up": { "uv": [ 0, 0, 16, 3 ], "texture": "#top", "cullface": "up" }
 			}
@@ -37,7 +37,7 @@
 		{
 			"__comment": "PlaneY2",
 			"from": [ 0, 16, 13 ],
-			"to": [ 16, 16.001, 16 ],
+			"to": [ 16, 16, 16 ],
 			"faces": {
 				"up": { "uv": [ 0, 13, 16, 16 ], "texture": "#top", "cullface": "up" }
 			}
@@ -45,7 +45,7 @@
 		{
 			"__comment": "PlaneY2",
 			"from": [ 0, 16, 3 ],
-			"to": [ 7, 16.001, 13 ],
+			"to": [ 7, 16, 13 ],
 			"faces": {
 				"up": { "uv": [ 0, 3, 7, 13 ], "texture": "#top", "cullface": "up" }
 			}
@@ -53,7 +53,7 @@
 		{
 			"__comment": "PlaneX6",
 			"from": [ 7, 14, 13 ],
-			"to": [ 9, 16, 13.001 ],
+			"to": [ 9, 16, 13 ],
 			"faces": {
 				"north": { "uv": [ 7, 2, 9, 4 ], "texture": "#top", "cullface": "up" }
 			}
@@ -61,7 +61,7 @@
 		{
 			"__comment": "PlaneX6",
 			"from": [ 7, 14, 3 ],
-			"to": [ 7.001, 16, 13 ],
+			"to": [ 7, 16, 13 ],
 			"faces": {
 				"east": { "uv": [ 8, 3, 10, 13 ], "texture": "#top", "cullface": "up", "rotation": 270 }
 			}
@@ -69,7 +69,7 @@
 		{
 			"__comment": "PlaneX6",
 			"from": [ 9, 14, 3 ],
-			"to": [ 9.001, 16, 13 ],
+			"to": [ 9, 16, 13 ],
 			"faces": {
 				"west": { "uv": [ 8, 13, 6, 3 ], "texture": "#top", "cullface": "up", "rotation": 270 }
 			}
@@ -77,7 +77,7 @@
 		{
 			"__comment": "PlaneX6",
 			"from": [ 7, 14, 3 ],
-			"to": [ 9, 16, 3.001 ],
+			"to": [ 9, 16, 3 ],
 			"faces": {
 				"south": { "uv": [ 7, 2, 9, 4 ], "texture": "#top", "cullface": "up" }
 			}
@@ -85,7 +85,7 @@
 		{
 			"__comment": "PlaneY10",
 			"from": [ 7, 14, 3 ],
-			"to": [ 9, 14.001, 13 ],
+			"to": [ 9, 14, 13 ],
 			"faces": {
 				"up": { "uv": [ 7, 3, 9, 13 ], "texture": "#top", "cullface": "up" }
 			}

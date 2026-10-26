@@ -509,7 +509,7 @@
 		{
 			"name": "PlaneY62",
 			"from": [1, 15, 0],
-			"to": [15, 15.001, 2],
+			"to": [15, 15, 2],
 			"faces": {
 				"down": {"uv": [1, 14, 15, 16], "texture": "#wood", "cullface": "north"}
 			}
@@ -517,7 +517,7 @@
 		{
 			"name": "PlaneY62",
 			"from": [14, 15, 1],
-			"to": [16, 15.001, 15],
+			"to": [16, 15, 15],
 			"faces": {
 				"down": {"uv": [0, 14, 12, 16], "rotation": 270, "texture": "#wood", "cullface": "east"}
 			}
@@ -525,7 +525,7 @@
 		{
 			"name": "PlaneY62",
 			"from": [1, 9, 0],
-			"to": [15, 9.001, 2],
+			"to": [15, 9, 2],
 			"faces": {
 				"up": {"uv": [1, 0, 15, 2], "texture": "#wood", "cullface": "north"}
 			}
@@ -533,7 +533,7 @@
 		{
 			"name": "PlaneY62",
 			"from": [1, 9, 14],
-			"to": [15, 9.001, 16],
+			"to": [15, 9, 16],
 			"faces": {
 				"up": {"uv": [1, 14, 15, 16], "texture": "#wood", "cullface": "south"}
 			}
@@ -541,7 +541,7 @@
 		{
 			"name": "PlaneY62",
 			"from": [1, 7, 0],
-			"to": [15, 7.001, 2],
+			"to": [15, 7, 2],
 			"faces": {
 				"down": {"uv": [1, 14, 15, 16], "texture": "#wood", "cullface": "north"}
 			}
@@ -549,7 +549,7 @@
 		{
 			"name": "PlaneY62",
 			"from": [1, 15, 14],
-			"to": [15, 15.001, 16],
+			"to": [15, 15, 16],
 			"faces": {
 				"down": {"uv": [1, 0, 15, 2], "texture": "#wood", "cullface": "south"}
 			}
@@ -557,7 +557,7 @@
 		{
 			"name": "PlaneY62",
 			"from": [1, 7, 14],
-			"to": [15, 7.001, 16],
+			"to": [15, 7, 16],
 			"faces": {
 				"down": {"uv": [1, 0, 15, 2], "texture": "#wood", "cullface": "south"}
 			}
@@ -565,7 +565,7 @@
 		{
 			"name": "PlaneY62",
 			"from": [1, 1, 14],
-			"to": [15, 1.001, 16],
+			"to": [15, 1, 16],
 			"faces": {
 				"up": {"uv": [1, 14, 15, 16], "texture": "#wood", "cullface": "south"}
 			}
@@ -573,7 +573,7 @@
 		{
 			"name": "PlaneY62",
 			"from": [1, 1, 0],
-			"to": [15, 1.001, 2],
+			"to": [15, 1, 2],
 			"faces": {
 				"up": {"uv": [1, 0, 15, 2], "texture": "#wood", "cullface": "north"}
 			}
@@ -581,7 +581,7 @@
 		{
 			"name": "PlaneY62",
 			"from": [14, 1, 1],
-			"to": [16, 1.001, 15],
+			"to": [16, 1, 15],
 			"faces": {
 				"up": {"uv": [0, 0, 12, 2], "rotation": 90, "texture": "#wood", "cullface": "east"}
 			}
@@ -589,7 +589,7 @@
 		{
 			"name": "PlaneY62",
 			"from": [14, 7, 1],
-			"to": [16, 7.001, 15],
+			"to": [16, 7, 15],
 			"faces": {
 				"down": {"uv": [0, 14, 12, 16], "rotation": 270, "texture": "#wood", "cullface": "east"}
 			}
@@ -597,7 +597,7 @@
 		{
 			"name": "PlaneY62",
 			"from": [14, 9, 1],
-			"to": [16, 9.001, 15],
+			"to": [16, 9, 15],
 			"faces": {
 				"up": {"uv": [0, 0, 12, 2], "rotation": 90, "texture": "#wood", "cullface": "east"}
 			}
@@ -605,7 +605,7 @@
 		{
 			"name": "PlaneY62",
 			"from": [0, 15, 1],
-			"to": [2, 15.001, 15],
+			"to": [2, 15, 15],
 			"faces": {
 				"down": {"uv": [0, 14, 12, 16], "rotation": 270, "texture": "#wood", "cullface": "west"}
 			}
@@ -613,7 +613,7 @@
 		{
 			"name": "PlaneY62",
 			"from": [0, 9, 1],
-			"to": [2, 9.001, 15],
+			"to": [2, 9, 15],
 			"faces": {
 				"up": {"uv": [0, 0, 12, 2], "rotation": 90, "texture": "#wood", "cullface": "west"}
 			}
@@ -621,7 +621,7 @@
 		{
 			"name": "PlaneY62",
 			"from": [0, 7, 1],
-			"to": [2, 7.001, 15],
+			"to": [2, 7, 15],
 			"faces": {
 				"down": {"uv": [0, 14, 12, 16], "rotation": 270, "texture": "#wood", "cullface": "west"}
 			}
@@ -629,7 +629,7 @@
 		{
 			"name": "PlaneY62",
 			"from": [0, 1, 1],
-			"to": [2, 1.001, 15],
+			"to": [2, 1, 15],
 			"faces": {
 				"up": {"uv": [0, 0, 12, 2], "rotation": 90, "texture": "#wood", "cullface": "west"}
 			}

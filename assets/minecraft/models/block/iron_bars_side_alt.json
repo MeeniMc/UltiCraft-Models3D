@@ -9,7 +9,7 @@
 	"elements": [
 		{
 			"from": [ 8, 0, 8 ],
-			"to": [ 8.001, 16, 16 ],
+			"to": [ 8, 16, 16 ],
 			"faces": {
 				"west": { "uv": [ 8, 0, 0, 16 ], "texture": "#bars" },
 				"east": { "uv": [ 0, 0, 8, 16 ], "texture": "#bars" }

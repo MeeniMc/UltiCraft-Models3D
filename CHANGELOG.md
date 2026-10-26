@@ -15,6 +15,7 @@ Removed
 Fixed
 -----
 * Small visual artifacts in the barrel and smithing table models.
+* Sub-pixel gaps in 51 block and item models snapped to exact coordinates; stitching artifacts no longer shimmer.
 * Hay bale side texture and 3D rope alignment now match the 26.3 straw bed.
 
 Changed

@@ -9,7 +9,7 @@
 	"elements": [
 		{
 			"from": [ 0, -1, 0 ],
-			"to": [ 16, -0.999, 16 ],
+			"to": [ 16, -1, 16 ],
 			"faces": {
 				"down": { "uv": [ 16, 16, 0, 0 ], "texture": "#texture", "tintindex": 0 },
 				"up": { "uv": [ 16, 0, 0, 16 ], "texture": "#texture", "tintindex": 0 }
@@ -18,7 +18,7 @@
 		{
 			"__comment": "PlaneX35",
 			"from": [ 12.5, -1, 4 ],
-			"to": [ 12.501, 15, 18.4 ],
+			"to": [ 12.5, 15, 18.4 ],
 			"rotation": { "origin": [ 12.5, -1, 4 ], "axis": "y", "angle": -45 },
 			"shade": false,
 			"faces": {
@@ -29,7 +29,7 @@
 		{
 			"__comment": "PlaneX35",
 			"from": [ 2.5, -1, 4 ],
-			"to": [ 2.501, 15, 18.4 ],
+			"to": [ 2.5, 15, 18.4 ],
 			"rotation": { "origin": [ 2.5, -1, 4 ], "axis": "y", "angle": 45 },
 			"shade": false,
 			"faces": {

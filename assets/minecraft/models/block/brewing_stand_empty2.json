@@ -36,8 +36,8 @@
 		},
 		{
 			"__comment": "Cube3",
-			"from": [ 2.25, 11, 8.4999 ],
-			"to": [ 3.25, 13, 9.4999 ],
+			"from": [ 2.25, 11, 8.5 ],
+			"to": [ 3.25, 13, 9.5 ],
 			"rotation": { "origin": [ 7.25, 0, 9.5 ], "axis": "y", "angle": 45 },
 			"faces": {
 				"down": { "uv": [ 2, 4, 3, 5 ], "texture": "#stand", "rotation": 180 },
