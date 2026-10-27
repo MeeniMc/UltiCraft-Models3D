@@ -10,8 +10,8 @@
 	"elements": [
 		{
 			"name": "NorthEast2",
-			"from": [1.00138, 1, 0.99433],
-			"to": [2.00138, 15, 1.99433],
+			"from": [1, 1, 1],
+			"to": [2, 15, 2],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [14.4, 1, 14.6, 15], "texture": "#bookshelf_3", "cullface": "north"},
@@ -22,8 +22,8 @@
 		},
 		{
 			"name": "SouthWest",
-			"from": [15.00138, 0, 14.99433],
-			"to": [16.00138, 16, 15.99433],
+			"from": [15, 0, 15],
+			"to": [16, 16, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [0, 0, 0.6, 16], "texture": "#bookshelf", "cullface": "east"},
@@ -36,8 +36,8 @@
 		},
 		{
 			"name": "SouthEast",
-			"from": [15.00138, 0, -0.00567],
-			"to": [16.00138, 16, 0.99433],
+			"from": [15, 0, 0],
+			"to": [16, 16, 1],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [0, 0, 0.6, 16], "texture": "#bookshelf", "cullface": "north"},
@@ -50,8 +50,8 @@
 		},
 		{
 			"name": "Center",
-			"from": [2.00138, 0, 1.99433],
-			"to": [14.00138, 16, 13.99433],
+			"from": [2, 0, 2],
+			"to": [14, 16, 14],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [2, 0, 14, 16], "texture": "#bookshelf_3", "cullface": "north"},
@@ -64,8 +64,8 @@
 		},
 		{
 			"name": "NorthWest",
-			"from": [0.00138, 0, 14.99433],
-			"to": [1.00138, 16, 15.99433],
+			"from": [0, 0, 15],
+			"to": [1, 16, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [15.4, 0, 16, 16], "texture": "#bookshelf", "cullface": "west"},
@@ -78,8 +78,8 @@
 		},
 		{
 			"name": "NorthWest2",
-			"from": [1.00138, 1, 13.99433],
-			"to": [2.00138, 15, 14.99433],
+			"from": [1, 1, 14],
+			"to": [2, 15, 15],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [14.4, 1, 14.6, 15], "texture": "#bookshelf", "cullface": "west"},
@@ -90,8 +90,8 @@
 		},
 		{
 			"name": "SouthWest2",
-			"from": [14.00138, 1, 13.99433],
-			"to": [15.00138, 15, 14.99433],
+			"from": [14, 1, 14],
+			"to": [15, 15, 15],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [1.4, 1, 1.6, 15], "texture": "#bookshelf", "cullface": "east"},
@@ -102,8 +102,8 @@
 		},
 		{
 			"name": "SouthEast2",
-			"from": [14.00138, 1, 0.99433],
-			"to": [15.00138, 15, 1.99433],
+			"from": [14, 1, 1],
+			"to": [15, 15, 2],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [1.4, 1, 1.6, 15], "texture": "#bookshelf", "cullface": "north"},
@@ -114,8 +114,8 @@
 		},
 		{
 			"name": "RedBookWest",
-			"from": [11.00138, 9, 13.99433],
-			"to": [12.00138, 13, 15.49433],
+			"from": [11, 9, 14],
+			"to": [12, 13, 15.5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"east": {"uv": [11.4, 3, 11.6, 7], "texture": "#bookshelf", "cullface": "south"},
@@ -126,8 +126,8 @@
 		},
 		{
 			"name": "RedBook3East",
-			"from": [13.00138, 1, 0.99433],
-			"to": [14.00138, 6, 1.99433],
+			"from": [13, 1, 1],
+			"to": [14, 6, 2],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [2.4, 10, 2.6, 15], "texture": "#bookshelf", "cullface": "north"},
@@ -137,8 +137,8 @@
 		},
 		{
 			"name": "YellowBookWest",
-			"from": [9.00138, 9, 13.99433],
-			"to": [11.00138, 14, 14.99433],
+			"from": [9, 9, 14],
+			"to": [11, 14, 15],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"east": {"uv": [10.4, 2, 10.6, 7], "texture": "#bookshelf", "cullface": "south"},
@@ -149,8 +149,8 @@
 		},
 		{
 			"name": "BlueBook4East",
-			"from": [2.00138, 1, 0.99433],
-			"to": [3.00138, 6, 1.99433],
+			"from": [2, 1, 1],
+			"to": [3, 6, 2],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [13.4, 10, 13.6, 15], "texture": "#bookshelf_3", "cullface": "north"},
@@ -160,8 +160,8 @@
 		},
 		{
 			"name": "RedBook2East",
-			"from": [4.00138, 9, 0.49433],
-			"to": [5.00138, 13, 1.99433],
+			"from": [4, 9, 0.5],
+			"to": [5, 13, 2],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [11.4, 3, 11.6, 7], "texture": "#bookshelf", "cullface": "north"},
@@ -172,8 +172,8 @@
 		},
 		{
 			"name": "YellowBookEast",
-			"from": [7.00138, 9, 13.99433],
-			"to": [9.00138, 15, 15.99433],
+			"from": [7, 9, 14],
+			"to": [9, 15, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"east": {"uv": [7.4, 1, 7.6, 7], "texture": "#bookshelf_3", "cullface": "south"},
@@ -183,8 +183,8 @@
 		},
 		{
 			"name": "BrownBookEast",
-			"from": [12.00138, 9, -0.00567],
-			"to": [14.00138, 14, 1.99433],
+			"from": [12, 9, 0],
+			"to": [14, 14, 2],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [2.05, 3, 3.95, 7], "texture": "#bookshelf_3", "cullface": "north"},
@@ -195,8 +195,8 @@
 		},
 		{
 			"name": "GreenBook2East",
-			"from": [12.00138, 1, 13.99433],
-			"to": [13.00138, 5, 15.99433],
+			"from": [12, 1, 14],
+			"to": [13, 5, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"east": {"uv": [12.4, 11, 12.6, 15], "texture": "#bookshelf_3", "cullface": "south"},
@@ -207,8 +207,8 @@
 		},
 		{
 			"name": "YellowBookNorth",
-			"from": [1.00138, 9, 8.99433],
-			"to": [2.00138, 14, 10.99433],
+			"from": [1, 9, 9],
+			"to": [2, 14, 11],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [9.4, 2, 9.6, 7], "texture": "#bookshelf", "cullface": "west"},
@@ -219,8 +219,8 @@
 		},
 		{
 			"name": "RedBook2North",
-			"from": [14.00138, 1.00104, 5.9891],
-			"to": [15.50138, 6.00104, 6.9891],
+			"from": [14, 1, 6],
+			"to": [15.5, 6, 7],
 			"rotation": {"angle": 22.5, "axis": "x", "origin": [14.75138, 3.50104, 6.4891]},
 			"faces": {
 				"north": {"uv": [5.4, 2, 5.6, 7], "texture": "#bookshelf", "cullface": "east"},
@@ -232,8 +232,8 @@
 		},
 		{
 			"name": "BlueBook2East",
-			"from": [2.00138, 9, 0.99433],
-			"to": [4.00138, 15, 1.99433],
+			"from": [2, 9, 1],
+			"to": [4, 15, 2],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [12.05, 1, 13.95, 7], "texture": "#bookshelf", "cullface": "north"},
@@ -242,8 +242,8 @@
 		},
 		{
 			"name": "BlueBook2North",
-			"from": [1.00138, 9, 11.99433],
-			"to": [2.00138, 15, 13.99433],
+			"from": [1, 9, 12],
+			"to": [2, 15, 14],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [12.4, 1, 12.6, 7], "texture": "#bookshelf", "cullface": "west"},
@@ -252,8 +252,8 @@
 		},
 		{
 			"name": "BlueBook1North",
-			"from": [1.00138, 9, 5.99433],
-			"to": [2.00138, 12, 6.99433],
+			"from": [1, 9, 6],
+			"to": [2, 12, 7],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"south": {"uv": [6.4, 4.05, 6.6, 6.95], "texture": "#bookshelf", "cullface": "west"},
@@ -263,8 +263,8 @@
 		},
 		{
 			"name": "RedBook1North",
-			"from": [0.50138, 9, 3.99433],
-			"to": [2.00138, 14, 5.99433],
+			"from": [0.5, 9, 4],
+			"to": [2, 14, 6],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [4.4, 2, 4.6, 7], "texture": "#bookshelf", "cullface": "west"},
@@ -275,8 +275,8 @@
 		},
 		{
 			"name": "BrownBookNorth",
-			"from": [0.00138, 9, 1.99433],
-			"to": [2.00138, 13, 3.99433],
+			"from": [0, 9, 2],
+			"to": [2, 13, 4],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [2.4, 3, 2.6, 7], "texture": "#bookshelf", "cullface": "west"},
@@ -287,8 +287,8 @@
 		},
 		{
 			"name": "BlueBook4North",
-			"from": [1.00138, 1, 12.99433],
-			"to": [2.00138, 5, 13.99433],
+			"from": [1, 1, 13],
+			"to": [2, 5, 14],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"west": {"uv": [13.4, 11, 13.6, 15], "texture": "#bookshelf", "cullface": "west"},
@@ -297,8 +297,8 @@
 		},
 		{
 			"name": "GreenBook2North",
-			"from": [0.00138, 1, 10.99433],
-			"to": [2.00138, 6, 12.99433],
+			"from": [0, 1, 11],
+			"to": [2, 6, 13],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [11.4, 10, 11.6, 15], "texture": "#bookshelf", "cullface": "west"},
@@ -309,8 +309,8 @@
 		},
 		{
 			"name": "GreenBook1North",
-			"from": [1.00138, 1, 5.99433],
-			"to": [2.00138, 7, 7.99433],
+			"from": [1, 1, 6],
+			"to": [2, 7, 8],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [6.4, 9, 6.6, 15], "texture": "#bookshelf", "cullface": "west"},
@@ -320,8 +320,8 @@
 		},
 		{
 			"name": "BlueBook3North",
-			"from": [0.00138, 1, 3.99433],
-			"to": [2.00138, 6, 5.99433],
+			"from": [0, 1, 4],
+			"to": [2, 6, 6],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [4.4, 10, 4.6, 15], "texture": "#bookshelf", "cullface": "west"},
@@ -332,8 +332,8 @@
 		},
 		{
 			"name": "RedBook3North",
-			"from": [1.00138, 1, 1.99433],
-			"to": [2.00138, 6, 2.99433],
+			"from": [1, 1, 2],
+			"to": [2, 6, 3],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"south": {"uv": [2.4, 10, 2.6, 15], "texture": "#bookshelf", "cullface": "west"},
@@ -343,8 +343,8 @@
 		},
 		{
 			"name": "BlueBook2South",
-			"from": [14.00138, 9, 1.99433],
-			"to": [15.00138, 15, 3.99433],
+			"from": [14, 9, 2],
+			"to": [15, 15, 4],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"east": {"uv": [12.05, 1, 13.95, 7], "texture": "#bookshelf", "cullface": "east"},
@@ -353,8 +353,8 @@
 		},
 		{
 			"name": "RedBook2South",
-			"from": [14.00138, 9, 3.99433],
-			"to": [16.00138, 13, 4.99433],
+			"from": [14, 9, 4],
+			"to": [16, 13, 5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [11.4, 3, 11.6, 7], "texture": "#bookshelf", "cullface": "east"},
@@ -365,8 +365,8 @@
 		},
 		{
 			"name": "YellowBookSouth",
-			"from": [14.00138, 9, 4.99433],
-			"to": [15.00138, 14, 6.99433],
+			"from": [14, 9, 5],
+			"to": [15, 14, 7],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [10.4, 2, 10.6, 7], "texture": "#bookshelf", "cullface": "east"},
@@ -377,8 +377,8 @@
 		},
 		{
 			"name": "RedBook1South",
-			"from": [14.00138, 9, 9.99433],
-			"to": [15.00138, 14, 11.99433],
+			"from": [14, 9, 10],
+			"to": [15, 14, 12],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [5.4, 2, 5.6, 7], "texture": "#bookshelf", "cullface": "east"},
@@ -389,8 +389,8 @@
 		},
 		{
 			"name": "BrownBookSouth",
-			"from": [14.00138, 9, 11.99433],
-			"to": [16.00138, 13, 13.99433],
+			"from": [14, 9, 12],
+			"to": [16, 13, 14],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [3.4, 3, 3.6, 7], "texture": "#bookshelf", "cullface": "east"},
@@ -401,8 +401,8 @@
 		},
 		{
 			"name": "BlueBook4South",
-			"from": [14.00138, 1, 1.99433],
-			"to": [15.00138, 5, 2.99433],
+			"from": [14, 1, 2],
+			"to": [15, 5, 3],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"east": {"uv": [13.4, 11, 13.6, 15], "texture": "#bookshelf", "cullface": "east"},
@@ -411,8 +411,8 @@
 		},
 		{
 			"name": "GreenBook2South",
-			"from": [14.00138, 1, 2.99433],
-			"to": [16.00138, 6, 4.99433],
+			"from": [14, 1, 3],
+			"to": [16, 6, 5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [12.4, 10, 12.6, 15], "texture": "#bookshelf", "cullface": "east"},
@@ -423,8 +423,8 @@
 		},
 		{
 			"name": "GreenBook1South",
-			"from": [14.00138, 1, 7.99433],
-			"to": [15.00138, 7, 9.99433],
+			"from": [14, 1, 8],
+			"to": [15, 7, 10],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [7.4, 9, 7.6, 15], "texture": "#bookshelf", "cullface": "east"},
@@ -434,8 +434,8 @@
 		},
 		{
 			"name": "BlueBook3South",
-			"from": [14.00138, 1, 9.99433],
-			"to": [16.00138, 6, 11.99433],
+			"from": [14, 1, 10],
+			"to": [16, 6, 12],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [5.4, 10, 5.6, 15], "texture": "#bookshelf", "cullface": "east"},
@@ -446,8 +446,8 @@
 		},
 		{
 			"name": "RedBook3South",
-			"from": [14.00138, 1, 12.99433],
-			"to": [15.00138, 6, 13.99433],
+			"from": [14, 1, 13],
+			"to": [15, 6, 14],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [2.4, 10, 2.6, 15], "texture": "#bookshelf", "cullface": "east"},
@@ -457,8 +457,8 @@
 		},
 		{
 			"name": "BrownBookWest",
-			"from": [2.00138, 9, 13.99433],
-			"to": [4.00138, 14, 15.99433],
+			"from": [2, 9, 14],
+			"to": [4, 14, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"east": {"uv": [3.4, 2, 3.6, 7], "texture": "#bookshelf_3", "cullface": "south"},
@@ -469,8 +469,8 @@
 		},
 		{
 			"name": "BlueBook2West",
-			"from": [12.00138, 9, 13.99433],
-			"to": [14.00138, 15, 14.99433],
+			"from": [12, 9, 14],
+			"to": [14, 15, 15],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"south": {"uv": [12.05, 1, 13.95, 7], "texture": "#bookshelf", "cullface": "south"},
@@ -479,8 +479,8 @@
 		},
 		{
 			"name": "RedBook3West",
-			"from": [2.00138, 1, 13.99433],
-			"to": [3.00138, 6, 14.99433],
+			"from": [2, 1, 14],
+			"to": [3, 6, 15],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"east": {"uv": [2.4, 10, 2.6, 15], "texture": "#bookshelf", "cullface": "south"},
@@ -490,8 +490,8 @@
 		},
 		{
 			"name": "BlueBook3West",
-			"from": [3.00138, 1, 13.99433],
-			"to": [5.00138, 6, 15.49433],
+			"from": [3, 1, 14],
+			"to": [5, 6, 15.5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"east": {"uv": [3.4, 11, 3.6, 15], "texture": "#bookshelf_3", "cullface": "south"},
@@ -502,8 +502,8 @@
 		},
 		{
 			"name": "GreenBook1West",
-			"from": [5.00138, 1, 13.99433],
-			"to": [7.00138, 6, 15.99433],
+			"from": [5, 1, 14],
+			"to": [7, 6, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"east": {"uv": [6.4, 10, 6.6, 15], "texture": "#bookshelf_3", "cullface": "south"},
@@ -514,8 +514,8 @@
 		},
 		{
 			"name": "BlueBook4West",
-			"from": [13.00138, 1, 13.99433],
-			"to": [14.00138, 6, 14.99433],
+			"from": [13, 1, 14],
+			"to": [14, 6, 15],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"south": {"uv": [13.4, 10, 13.6, 15], "texture": "#bookshelf_3", "cullface": "south"},
@@ -524,8 +524,8 @@
 		},
 		{
 			"name": "NorthEast",
-			"from": [0.00138, 0, -0.00567],
-			"to": [1.00138, 16, 0.99433],
+			"from": [0, 0, 0],
+			"to": [1, 16, 1],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [15.4, 0, 16, 16], "texture": "#bookshelf", "cullface": "north"},
@@ -538,8 +538,8 @@
 		},
 		{
 			"name": "BlueBook1South",
-			"from": [14.00138, 9, 8.99433],
-			"to": [15.00138, 12, 9.99433],
+			"from": [14, 9, 9],
+			"to": [15, 12, 10],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [6.4, 4.05, 6.6, 6.95], "texture": "#bookshelf", "cullface": "east"},
@@ -549,8 +549,8 @@
 		},
 		{
 			"name": "YellowBookEast",
-			"from": [11.00138, 1, 0.49433],
-			"to": [13.00138, 5, 1.99433],
+			"from": [11, 1, 0.5],
+			"to": [13, 5, 2],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [3.05, 11, 4.95, 15], "texture": "#bookshelf_3", "cullface": "north"},
@@ -560,8 +560,8 @@
 		},
 		{
 			"name": "YellowBookEast",
-			"from": [5.00138, 9, 0.99433],
-			"to": [7.00138, 14, 1.99433],
+			"from": [5, 9, 1],
+			"to": [7, 14, 2],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [9.05, 2, 10.95, 7], "texture": "#bookshelf", "cullface": "north"},
@@ -572,8 +572,8 @@
 		},
 		{
 			"name": "YellowBookEast",
-			"from": [7.00138, 3, 13.99433],
-			"to": [12.00138, 4, 15.49433],
+			"from": [7, 3, 14],
+			"to": [12, 4, 15.5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"south": {"uv": [7, 12.4, 12, 12.6], "texture": "#bookshelf_3", "cullface": "south"},
@@ -582,8 +582,8 @@
 		},
 		{
 			"name": "YellowBookEast",
-			"from": [7.00138, 9, -0.00567],
-			"to": [9.00138, 15, 1.99433],
+			"from": [7, 9, 0],
+			"to": [9, 15, 2],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [7.05, 1, 8.95, 7], "texture": "#bookshelf_3", "cullface": "north"},
@@ -593,8 +593,8 @@
 		},
 		{
 			"name": "GreenBook1East",
-			"from": [7.00138, 1, 13.99433],
-			"to": [12.00138, 3, 16.49433],
+			"from": [7, 1, 14],
+			"to": [12, 3, 16.5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"east": {"uv": [7.4, 13.05, 7.6, 14.95], "texture": "#bookshelf_3", "cullface": "south"},
@@ -606,8 +606,8 @@
 		},
 		{
 			"name": "BlueBook3East",
-			"from": [9.00138, 1, -0.00567],
-			"to": [11.00138, 6, 1.99433],
+			"from": [9, 1, 0],
+			"to": [11, 6, 2],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [5.05, 10, 6.95, 15], "texture": "#bookshelf_3", "cullface": "north"},
@@ -618,8 +618,8 @@
 		},
 		{
 			"name": "RedBook2North",
-			"from": [0.00138, 9, 10.99433],
-			"to": [2.00138, 13, 11.99433],
+			"from": [0, 9, 11],
+			"to": [2, 13, 12],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [11.4, 3, 11.6, 7], "texture": "#bookshelf", "cullface": "west"},
@@ -630,8 +630,8 @@
 		},
 		{
 			"name": "RedBook2North",
-			"from": [14.00138, 9.21351, 7.55404],
-			"to": [15.50138, 11.71351, 8.55404],
+			"from": [14, 9.21351, 7.55404],
+			"to": [15.5, 11.71351, 8.55404],
 			"rotation": {"angle": -22.5, "axis": "x", "origin": [14.75138, 10.46351, 8.05404]},
 			"faces": {
 				"north": {"uv": [14.4, 4.55, 14.6, 6.95], "texture": "#bookshelf", "cullface": "east"},
@@ -643,8 +643,8 @@
 		},
 		{
 			"name": "RedBook2North",
-			"from": [0.50138, 9.09619, 7.51075],
-			"to": [2.00138, 11.59619, 8.51075],
+			"from": [0.5, 9.09619, 7.5],
+			"to": [2, 11.59619, 8.5],
 			"rotation": {"angle": 22.5, "axis": "x", "origin": [1.25138, 10.34619, 8.01075]},
 			"faces": {
 				"north": {"uv": [14.4, 4.55, 14.6, 6.95], "texture": "#bookshelf", "cullface": "west"},
@@ -656,8 +656,8 @@
 		},
 		{
 			"name": "RedBook2North",
-			"from": [0.50138, 1.11836, 9.07569],
-			"to": [2.00138, 6.11836, 10.07569],
+			"from": [0.5, 1.11836, 9.07569],
+			"to": [2, 6.11836, 10.07569],
 			"rotation": {"angle": -22.5, "axis": "x", "origin": [1.25138, 3.61836, 9.57569]},
 			"faces": {
 				"north": {"uv": [5.4, 2, 5.6, 7], "texture": "#bookshelf", "cullface": "west"},
@@ -669,8 +669,8 @@
 		},
 		{
 			"name": "GreenBook2East",
-			"from": [3.00138, 1, -0.00567],
-			"to": [4.00138, 5, 1.99433],
+			"from": [3, 1, 0],
+			"to": [4, 5, 2],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [12.4, 11, 12.6, 15], "texture": "#bookshelf_3", "cullface": "north"},
@@ -681,8 +681,8 @@
 		},
 		{
 			"name": "YellowBookEast",
-			"from": [4.00138, 3, 0.49433],
-			"to": [9.00138, 4, 1.99433],
+			"from": [4, 3, 0.5],
+			"to": [9, 4, 2],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [7, 12.4, 12, 12.6], "texture": "#bookshelf_3", "cullface": "north"},
@@ -691,8 +691,8 @@
 		},
 		{
 			"name": "GreenBook1East",
-			"from": [4.00138, 1, -0.50567],
-			"to": [9.00138, 3, 1.99433],
+			"from": [4, 1, -0.5],
+			"to": [9, 3, 2],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [7, 13.05, 12, 14.95], "texture": "#bookshelf_3", "cullface": "north"},
@@ -704,8 +704,8 @@
 		},
 		{
 			"name": "BottomNorth",
-			"from": [0.00138, 0, 0.99433],
-			"to": [2.00138, 1, 14.99433],
+			"from": [0, 0, 1],
+			"to": [2, 1, 15],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"west": {"uv": [1, 15.4, 15, 16], "texture": "#bookshelf", "cullface": "west"},
@@ -715,8 +715,8 @@
 		},
 		{
 			"name": "BottomNorth",
-			"from": [1.00138, 0, -0.00567],
-			"to": [15.00138, 1, 1.99433],
+			"from": [1, 0, 0],
+			"to": [15, 1, 2],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [1, 15.4, 15, 16], "texture": "#bookshelf", "cullface": "north"},
@@ -726,8 +726,8 @@
 		},
 		{
 			"name": "BottomNorth",
-			"from": [14.00138, 0, 0.99433],
-			"to": [16.00138, 1, 14.99433],
+			"from": [14, 0, 1],
+			"to": [16, 1, 15],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"east": {"uv": [1, 15.4, 15, 16], "texture": "#bookshelf", "cullface": "east"},
@@ -737,8 +737,8 @@
 		},
 		{
 			"name": "BottomNorth",
-			"from": [1.00138, 0, 13.99433],
-			"to": [15.00138, 1, 15.99433],
+			"from": [1, 0, 14],
+			"to": [15, 1, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"south": {"uv": [1, 15.4, 15, 16], "texture": "#bookshelf", "cullface": "south"},
@@ -748,8 +748,8 @@
 		},
 		{
 			"name": "TopNorth",
-			"from": [0.00138, 15, 0.99433],
-			"to": [2.00138, 16, 14.99433],
+			"from": [0, 15, 1],
+			"to": [2, 16, 15],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"west": {"uv": [1, 0, 15, 0.6], "texture": "#bookshelf", "cullface": "west"},
@@ -759,8 +759,8 @@
 		},
 		{
 			"name": "TopNorth",
-			"from": [1.00138, 15, -0.00567],
-			"to": [15.00138, 16, 1.99433],
+			"from": [1, 15, 0],
+			"to": [15, 16, 2],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [1, 0, 15, 0.6], "texture": "#bookshelf", "cullface": "north"},
@@ -770,8 +770,8 @@
 		},
 		{
 			"name": "TopNorth",
-			"from": [14.00138, 15, 0.99433],
-			"to": [16.00138, 16, 14.99433],
+			"from": [14, 15, 1],
+			"to": [16, 16, 15],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"east": {"uv": [1, 0, 15, 0.6], "texture": "#bookshelf", "cullface": "east"},
@@ -781,8 +781,8 @@
 		},
 		{
 			"name": "TopNorth",
-			"from": [1.00138, 15, 13.99433],
-			"to": [15.00138, 16, 15.99433],
+			"from": [1, 15, 14],
+			"to": [15, 16, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"south": {"uv": [1, 0, 15, 0.6], "texture": "#bookshelf", "cullface": "south"},
@@ -792,8 +792,8 @@
 		},
 		{
 			"name": "MiddleNorth",
-			"from": [0.00138, 7, 0.99433],
-			"to": [2.00138, 9, 14.99433],
+			"from": [0, 7, 1],
+			"to": [2, 9, 15],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"west": {"uv": [1, 7.05, 15, 8.95], "texture": "#bookshelf", "cullface": "west"},
@@ -803,8 +803,8 @@
 		},
 		{
 			"name": "MiddleNorth",
-			"from": [1.00138, 7, -0.00567],
-			"to": [15.00138, 9, 1.99433],
+			"from": [1, 7, 0],
+			"to": [15, 9, 2],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"north": {"uv": [1, 7.05, 15, 8.95], "texture": "#bookshelf", "cullface": "north"},
@@ -814,8 +814,8 @@
 		},
 		{
 			"name": "MiddleNorth",
-			"from": [14.00138, 7, 0.99433],
-			"to": [16.00138, 9, 14.99433],
+			"from": [14, 7, 1],
+			"to": [16, 9, 15],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"east": {"uv": [1, 7.05, 15, 8.95], "texture": "#bookshelf", "cullface": "east"},
@@ -825,8 +825,8 @@
 		},
 		{
 			"name": "MiddleNorth",
-			"from": [1.00138, 7, 13.99433],
-			"to": [15.00138, 9, 15.99433],
+			"from": [1, 7, 14],
+			"to": [15, 9, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.99786, 7.41449, 7.99648]},
 			"faces": {
 				"south": {"uv": [1, 7.05, 15, 8.95], "texture": "#bookshelf", "cullface": "south"},
