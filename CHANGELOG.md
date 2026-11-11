@@ -5,7 +5,9 @@ This release targets 26.3 and is expected to work as intended on prior Minecraft
 
 Fixed
 -----
-* Sub-pixel gaps in 51 block and item models snapped to exact coordinates; stitching artifacts no longer shimmer.
+* Sub-pixel gaps in 51 block and item models snapped to exact coordinates; stitching artifacts no longer shimmer (sky ants).
+* 1/2px strips have uv sampling clamped to prevent color leak; (most) stitching artifacts no longer shimmer (black ants).
+* Incorrectly espilon rotated bookshelf; stitching artifacts no longer shimmer (sky ants).
 
 v2.97.0 for Minecraft 26.3
 ==========================
